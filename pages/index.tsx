@@ -15,12 +15,12 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>CHUBBYCHUMS</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <Header />
-      <main className="">
+      <main className="font-outfit">
         <Main />
         <About />
         <Roadmap />
