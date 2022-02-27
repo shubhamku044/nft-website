@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <section className="py-24 px-4">
+    <section className="scroll-m-8 bg-purple-100 py-24 px-4" id="about">
       <div className="mx-auto flex flex-col items-center justify-center space-y-8 sm:space-y-12">
-        <h3 className="text-5xl font-medium uppercase">About</h3>
+        <h3 className="text-3xl font-medium uppercase sm:text-5xl">About</h3>
         <p className="max-w-3xl text-center font-light tracking-wider sm:text-lg">
           WonderPals is a collection of 10,000 delightfully cute NFTs living on
           the Ethereum blockchain, created from a combination of over 200 traits

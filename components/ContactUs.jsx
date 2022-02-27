@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <section className="relative bg-pink-200 py-24 px-4">
       <div className="mx-auto flex flex-col items-center justify-center space-y-6 sm:space-y-8">
-        <h3 className="text-5xl font-medium uppercase">
+        <h3 className="text-3xl font-medium uppercase sm:text-5xl">
           PARTNERSHIPS & COLLABS
         </h3>
         <div className="flex flex-col items-center space-y-6">

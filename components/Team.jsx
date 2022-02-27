@@ -3,9 +3,12 @@ import Image from 'next/image'
 
 const Team = () => {
   return (
-    <section className="relative bg-yellow-200 py-24 px-4">
+    <section
+      className="relative scroll-m-10 bg-yellow-200 py-24 px-4"
+      id="team"
+    >
       <div className="mx-auto flex flex-col items-center justify-center space-y-8 sm:space-y-12">
-        <h3 className="text-5xl font-medium uppercase">Team</h3>
+        <h3 className="text-3xl font-medium uppercase sm:text-5xl">Team</h3>
         <div className="flex flex-col space-y-10 sm:flex-row sm:space-y-0 sm:space-x-8">
           <div className="group flex flex-col items-center space-y-4">
             <div className="relative h-48 w-48 duration-200 group-hover:scale-105 sm:h-40 sm:w-40 md:h-48 md:w-48">

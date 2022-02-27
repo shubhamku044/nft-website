@@ -2,9 +2,12 @@ import React from 'react'
 
 const Roadmap = () => {
   return (
-    <section className="relative bg-green-200 py-24 px-4">
+    <section
+      className="relative scroll-m-12 bg-green-200 py-24 px-4"
+      id="roadmap"
+    >
       <div className="mx-auto flex flex-col items-center justify-center space-y-8 sm:space-y-12">
-        <h3 className="text-5xl font-medium uppercase">Roadmap</h3>
+        <h3 className="text-3xl font-medium uppercase sm:text-5xl">Roadmap</h3>
         <p className="max-w-3xl text-center font-light tracking-wider sm:text-lg">
           We will continue to create delightful art and work on developing &
           growing our community and the WonderPals brand. We have plans to open

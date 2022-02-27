@@ -1,0 +1,19 @@
+.sidenav {
+  position: fixed;
+  width: 92%;
+  height: 26rem;
+  transform: translateY(-50%, -120%);
+  transition: all 0.4s ease-out;
+  margin: 2rem auto;
+  left: 50%;
+  opacity: 0;
+  visibility: hidden;
+}
+.activeSidenav {
+  position: fixed;
+  width: 92%;
+  height: 22rem;
+  transform: translate(-50%, 70%);
+  transition: all 0.5s ease-out;
+  left: 50%;
+}

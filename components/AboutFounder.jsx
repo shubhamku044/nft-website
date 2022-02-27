@@ -4,7 +4,9 @@ const AboutFounder = () => {
   return (
     <section className="relative bg-green-200 py-24 px-4">
       <div className="mx-auto flex flex-col items-center justify-center space-y-8 sm:space-y-12">
-        <h3 className="text-5xl font-medium uppercase">ABOUT THE FOUNDER</h3>
+        <h3 className="text-3xl font-medium uppercase sm:text-5xl">
+          ABOUT THE FOUNDER
+        </h3>
         <p className="max-w-3xl text-center font-light tracking-wider sm:text-lg">
           Hello there! My name is Mina, I am the founder & artist behind
           WonderPals. I am a freelance artist and senior product designer with

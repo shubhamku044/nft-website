@@ -61,7 +61,7 @@ const Footer = () => {
               </Link>
             </li>
           </ul>
-          <div className="flex items-center space-x-1 font-semibold uppercase text-white">
+          <div className="flex items-center space-x-2 text-sm font-semibold uppercase text-white sm:text-xl">
             <span>© 2022 chubbychums LLC</span>
             <span>|</span>
             <span>Terms and condition</span>
