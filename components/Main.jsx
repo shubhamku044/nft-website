@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="flex min-h-screen flex-col items-center justify-center space-y-12 bg-blue-100 pt-10"
+      className="flex min-h-screen flex-col items-center justify-center space-y-12 bg-[#F46161] pt-10"
     >
       <div className="relative h-32 w-32">
         <Image src="/WP_LOGO.svg" layout="fill" objectFit="contain" />
