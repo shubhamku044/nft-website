@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutFounder = () => {
   return (
-    <section className="relative bg-green-200 py-24 px-4">
+    <section className="relative bg-pink-50 py-24 px-4">
       <div className="mx-auto flex flex-col items-center justify-center space-y-8 sm:space-y-12">
         <h3 className="text-3xl font-medium uppercase sm:text-5xl">
           ABOUT THE FOUNDER

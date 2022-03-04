@@ -3,7 +3,7 @@ import React from 'react'
 const Roadmap = () => {
   return (
     <section
-      className="relative scroll-m-12 bg-green-200 py-24 px-4"
+      className="relative scroll-m-12 bg-pink-100 py-24 px-4"
       id="roadmap"
     >
       <div className="mx-auto flex flex-col items-center justify-center space-y-8 sm:space-y-12">

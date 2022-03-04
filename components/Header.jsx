@@ -31,7 +31,7 @@ const Header = () => {
     <div
       className={`fixed top-0 left-0 z-50 w-full ${
         navbar
-          ? 'border-b-0 bg-pink-50 py-4 px-6 backdrop-blur-sm lg:px-10'
+          ? 'border-b-0 bg-[#aa84d8]/25 py-2 px-6 backdrop-blur-md lg:px-10'
           : 'border-b-0 py-8 px-10 lg:px-20'
       } transition-all duration-200 ease-out`}
     >
@@ -53,11 +53,11 @@ const Header = () => {
             <XIcon className="h-8 w-8" onClick={() => setActive(!active)} />
           )}
         </div>
-        <ul className="hidden items-center space-x-6 text-lg font-semibold uppercase text-gray-800 md:flex">
+        <ul className="hidden items-center space-x-6 text-base font-medium uppercase text-white md:flex">
           {sections.map(({ section, id }, i) => {
             return (
               <li
-                className="cursor-pointer duration-200 hover:text-gray-900"
+                className="cursor-pointer rounded-full bg-pink-500 px-4 py-1 duration-200 hover:bg-pink-700 hover:text-white"
                 key={i}
               >
                 <Link href={`#${id}`}>
@@ -93,13 +93,13 @@ const Header = () => {
         <div
           className={`${
             active ? styles.activeSidenav : styles.sidenav
-          } flex items-center justify-center bg-red-100 md:hidden`}
+          } flex items-center justify-center rounded-md bg-[#f09ee5] md:hidden`}
         >
-          <ul className="flex flex-col items-center space-y-6 text-2xl font-normal uppercase">
+          <ul className="flex flex-col items-center space-y-6 text-base font-medium uppercase">
             {sections.map(({ section, id }, i) => {
               return (
                 <li
-                  className="cursor-pointer duration-200 hover:text-gray-900"
+                  className="cursor-pointer rounded-full bg-white px-4 py-1 text-black duration-200 hover:bg-gray-200"
                   key={i}
                 >
                   <Link href={`#${id}`}>

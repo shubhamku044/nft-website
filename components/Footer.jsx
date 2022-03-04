@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <section className="relative bg-purple-500 py-16">
+    <section className="relative bg-gradient-to-br from-[#d48fe9] to-[#657dc0] py-16">
       <div className="flex flex-col items-center space-y-16">
         <div className="flex flex-col items-center space-y-8">
           <ul className="flex space-x-4">

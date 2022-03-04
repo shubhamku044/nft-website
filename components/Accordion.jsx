@@ -16,7 +16,9 @@ const Accordion = () => {
   return (
     <>
       <div
-        className={`rounded-[2rem] border-2 border-black bg-white px-6 py-4`}
+        className={`rounded-[2rem] border-2 border-black px-6 py-4 duration-300 ease-out hover:bg-red-300 ${
+          selected === 1 ? 'bg-red-300' : 'bg-red-200'
+        }`}
       >
         <div
           className={`flex cursor-pointer items-center justify-between text-xl font-semibold text-black sm:text-2xl`}
@@ -58,7 +60,9 @@ const Accordion = () => {
         </div>
       </div>
       <div
-        className={`rounded-[2rem] border-2 border-black bg-white px-6 py-4`}
+        className={`rounded-[2rem] border-2 border-black duration-300 ease-out hover:bg-red-300 ${
+          selected === 2 ? 'bg-red-300' : 'bg-red-200'
+        } px-6 py-4`}
       >
         <div
           className={`flex cursor-pointer items-center justify-between text-xl font-semibold text-black sm:text-2xl`}
@@ -98,7 +102,9 @@ const Accordion = () => {
         </div>
       </div>
       <div
-        className={`rounded-[2rem] border-2 border-black bg-white px-6 py-4`}
+        className={`rounded-[2rem] border-2 border-black px-6 py-4 duration-300 ease-out hover:bg-red-300 ${
+          selected === 3 ? 'bg-red-300' : 'bg-red-200'
+        }`}
       >
         <div
           className={`flex cursor-pointer items-center justify-between text-xl font-semibold text-black sm:text-2xl`}
@@ -138,7 +144,9 @@ const Accordion = () => {
         </div>
       </div>
       <div
-        className={`rounded-[2rem] border-2 border-black bg-white px-6 py-4`}
+        className={`rounded-[2rem] border-2 border-black px-6 py-4 duration-300 ease-out hover:bg-red-300 ${
+          selected === 4 ? 'bg-red-300' : 'bg-red-200'
+        }`}
       >
         <div
           className={`flex cursor-pointer items-center justify-between text-xl font-semibold text-black sm:text-2xl`}
@@ -178,7 +186,9 @@ const Accordion = () => {
         </div>
       </div>
       <div
-        className={`rounded-[2rem] border-2 border-black bg-white px-6 py-4`}
+        className={`rounded-[2rem] border-2 border-black px-6 py-4 duration-300 ease-out hover:bg-red-300 ${
+          selected === 5 ? 'bg-red-300' : 'bg-red-200'
+        }`}
       >
         <div
           className={`flex cursor-pointer items-center justify-between text-xl font-semibold text-black sm:text-2xl`}
